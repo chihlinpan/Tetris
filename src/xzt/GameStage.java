@@ -19,7 +19,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class GameStage extends Application {
-    private int xMax = Controller.XMAX;
+    private final int xMax = Controller.XMAX;
     private int yMax = Controller.YMAX;
     static boolean game;
 
